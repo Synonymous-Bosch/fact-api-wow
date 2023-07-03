@@ -3,7 +3,7 @@ import React from 'react'
 const Fact = ({factOfTheDay}) => {
     return (
     <>
-        <h1>Fact Of The Day</h1>
+        <h2>Fact Of The Day</h2>
         <p>Fact: {factOfTheDay.text}</p>    
         
     </>

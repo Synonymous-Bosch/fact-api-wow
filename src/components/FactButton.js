@@ -12,7 +12,7 @@ const FactButton = ({getRandomFact, randomFact, randomWow, getRandomWow}) => {
 
     return (
     <>
-    <h1>Random Fact</h1>
+    <h3>Random Fact</h3>
     <p>{randomFact.text}</p>
     <button onClick={handleRandomFact}>Get another random fact</button>
     
