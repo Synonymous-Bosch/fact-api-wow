@@ -15,7 +15,9 @@ const FavouriteFacts = ({randomFact, setFavouriteFacts, favouriteFacts}) => {
     
 
     return (
-        <>        <button onClick={handleFavouriteFacts}>Add fact to favourites</button>
+        <>        
+        <button onClick={handleFavouriteFacts}>Add fact to favourites</button>
+        <h1>Favourite Facts</h1>
         <ul>
             {favFactNodes}
         </ul>

@@ -6,7 +6,6 @@ const FactButton = ({getRandomFact, randomFact, randomWow, getRandomWow}) => {
     const handleRandomFact = () => {
       getRandomFact()
       getRandomWow()
-      console.log(randomWow[0].audio)
       const audio = new Audio(randomWow[0].audio);
       audio.play()
     }

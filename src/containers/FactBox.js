@@ -52,7 +52,6 @@ const FactBox = () => {
 
     return(
         <>
-            <h1>This is the FactBox</h1>
             <Fact factOfTheDay={factOfTheDay}/>
             <FactButton getRandomFact={getRandomFact} randomFact={randomFact} randomWow={randomWow} getRandomWow={getRandomWow}/>
             <FavouriteFacts favouriteFacts={favouriteFacts} setFavouriteFacts={addFavouriteFact} randomFact={randomFact} />
